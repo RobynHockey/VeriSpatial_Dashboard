@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import ThreeMap from "./ThreeMap";
 
 export default function MainContent() {
   return (
     <main className="main-content">
-      <h2>Dashboard Content Coming Soon</h2>
-      <p>This is where your 3D model will be displayed later.</p>
+      <h2>3D Model of the University</h2>
+      <ThreeMap />
     </main>
   );
 }
